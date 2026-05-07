@@ -1,3 +1,19 @@
+let hero = new Swiper(".heroSwiper", {
+  spaceBetween: 30,
+  // slidesPerView: 1,
+    loop: true,
+
+    //  autoplay: {
+    //   delay: 5000,
+    //   disableOnInteraction: false,
+    // },
+  // navigation: {
+  //   nextEl: ".control_next",
+  //   prevEl: ".control_prev",
+  // },
+});
+
+
 let services = new Swiper(".servicesSwiper", {
   spaceBetween: 30,
   slidesPerView: 3,
